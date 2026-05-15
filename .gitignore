@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# Virtual Environment folder
+venv/
+.venv/
+
+# IDE directories
+.vscode/
+.idea/
+
+# Keep data source offline for security and storage
+data/*.csv
+data/*.xlsx
+
+# ALLOW ONLY the lightweight production-ready artifacts to pass to GitHub
+!models/diabetes_ann_model.onnx
+!models/scaler.pkl
